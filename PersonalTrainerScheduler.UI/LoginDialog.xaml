@@ -1,0 +1,38 @@
+﻿<Window x:Class="PersonalTrainerScheduler.UI.LoginDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PersonalTrainerScheduler.UI"
+        mc:Ignorable="d"
+        Title="LoginDialog" Height="200" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <Grid Margin="10 20 10 0" Height="83">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="46*"></ColumnDefinition>
+                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                    <ColumnDefinition Width="57*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" Margin="20,8,162,7.6" Content="Login :" Grid.ColumnSpan="3" Height="26" />
+                <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" Margin="20,8.4,162,8.2" Content="Password :" Grid.ColumnSpan="3" Height="25"/>
+                <TextBox  Name="loginTextBox" Grid.Column="1" Grid.Row="0" Height="20" Width="160" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0.6,11,0,10.6" Grid.ColumnSpan="2"/>
+                <PasswordBox Name="passwordTextBox" Grid.Column="1" Grid.Row="1" Width="160" HorizontalAlignment="Left" Margin="0.6,10.4,0,11.2" Grid.ColumnSpan="2"/>
+            </Grid>
+
+            <Grid Margin="10 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Content="Login" Click="Login_BTN" Margin="14" Padding="3"/>
+                <Button Click="Close_BTN" Grid.Column="1" Content="Cancel" Margin="14" Padding="3"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

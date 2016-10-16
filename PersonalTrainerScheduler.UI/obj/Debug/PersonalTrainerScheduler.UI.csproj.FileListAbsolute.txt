@@ -1,0 +1,84 @@
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe.config
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\Page1.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\App.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.lref
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.baml
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\Page1.baml
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.g.resources
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.Properties.Resources.resources
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csproj.GenerateResource.Cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe.config
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\Page1.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\App.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.lref
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.baml
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\Page1.baml
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.g.resources
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.Properties.Resources.resources
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csproj.GenerateResource.Cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe.config
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\Page1.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\App.g.cs
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.lref
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.baml
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\Page1.baml
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.g.resources
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.Properties.Resources.resources
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csproj.GenerateResource.Cache
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe.config
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.exe
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.UI.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\bin\Debug\PersonalTrainerScheduler.Repositories.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\App.g.cs
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.cache
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI_MarkupCompile.lref
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\MainWindow.baml
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.g.resources
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.Properties.Resources.resources
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\PersonalTrainerScheduler.UI.csproj.GenerateResource.Cache
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\LoginDialog.g.cs
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\TrainerRegistrationDialog.g.cs
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\LoginDialog.baml
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\TrainerRegistrationDialog.baml
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\CustomerRegistrationDialog.g.cs
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.UI\obj\Debug\CustomerRegistrationDialog.baml

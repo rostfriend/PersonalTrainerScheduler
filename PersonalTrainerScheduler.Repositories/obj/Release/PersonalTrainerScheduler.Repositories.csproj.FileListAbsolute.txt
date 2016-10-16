@@ -1,0 +1,7 @@
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\bin\Release\PersonalTrainerScheduler.Repositories.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\bin\Release\PersonalTrainerScheduler.Repositories.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\bin\Release\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\bin\Release\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\obj\Release\PersonalTrainerScheduler.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\obj\Release\PersonalTrainerScheduler.Repositories.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Repositories\obj\Release\PersonalTrainerScheduler.Repositories.pdb

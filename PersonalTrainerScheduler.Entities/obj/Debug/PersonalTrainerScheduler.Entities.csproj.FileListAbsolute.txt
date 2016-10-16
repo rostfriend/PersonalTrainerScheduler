@@ -1,0 +1,10 @@
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\bin\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\bin\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\obj\Debug\PersonalTrainerScheduler.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\obj\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\obj\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\bin\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\bin\Debug\PersonalTrainerScheduler.Entities.pdb
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\obj\Debug\PersonalTrainerScheduler.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\obj\Debug\PersonalTrainerScheduler.Entities.dll
+C:\Users\Rostyslav\Desktop\---Epam---\Individual Task 2 2016\PersonalTrainerScheduler\PersonalTrainerScheduler.Entities\obj\Debug\PersonalTrainerScheduler.Entities.pdb

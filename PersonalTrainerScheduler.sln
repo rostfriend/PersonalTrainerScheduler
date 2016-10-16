@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTrainerScheduler.UI", "PersonalTrainerScheduler.UI\PersonalTrainerScheduler.UI.csproj", "{2AA1ACC2-5E5E-40F8-92DA-9DA49341EFB6}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PersonalTrainerScheduler.DataBase", "PersonalTrainerScheduler.DataBase\PersonalTrainerScheduler.DataBase.sqlproj", "{1A3E7164-7000-470B-AC11-2EC67A88477B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTrainerScheduler.Entities", "PersonalTrainerScheduler.Entities\PersonalTrainerScheduler.Entities.csproj", "{87B40789-771A-4C03-A540-6767390B8CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTrainerScheduler.Repositories", "PersonalTrainerScheduler.Repositories\PersonalTrainerScheduler.Repositories.csproj", "{68907584-5CC7-4589-8B49-F1DF46A700E2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PersonalTrainerScheduler.Setup", "PersonalTrainerScheduler.Setup\PersonalTrainerScheduler.Setup.vdproj", "{80BB6075-500C-4257-85B4-EC1CD7AB80D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA1ACC2-5E5E-40F8-92DA-9DA49341EFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA1ACC2-5E5E-40F8-92DA-9DA49341EFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA1ACC2-5E5E-40F8-92DA-9DA49341EFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA1ACC2-5E5E-40F8-92DA-9DA49341EFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3E7164-7000-470B-AC11-2EC67A88477B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3E7164-7000-470B-AC11-2EC67A88477B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3E7164-7000-470B-AC11-2EC67A88477B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1A3E7164-7000-470B-AC11-2EC67A88477B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3E7164-7000-470B-AC11-2EC67A88477B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3E7164-7000-470B-AC11-2EC67A88477B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{87B40789-771A-4C03-A540-6767390B8CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B40789-771A-4C03-A540-6767390B8CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B40789-771A-4C03-A540-6767390B8CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B40789-771A-4C03-A540-6767390B8CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68907584-5CC7-4589-8B49-F1DF46A700E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68907584-5CC7-4589-8B49-F1DF46A700E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68907584-5CC7-4589-8B49-F1DF46A700E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68907584-5CC7-4589-8B49-F1DF46A700E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BB6075-500C-4257-85B4-EC1CD7AB80D5}.Debug|Any CPU.ActiveCfg = Debug
+		{80BB6075-500C-4257-85B4-EC1CD7AB80D5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
