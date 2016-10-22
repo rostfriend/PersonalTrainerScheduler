@@ -25,7 +25,7 @@ namespace PersonalTrainerScheduler.UI
     {
 
         #region Fields
-
+        // Review Yurii KL: Recommended to name private fields with _underscore
         private CustomerRepository customerRepository;
         private Customer selectedCustomer;
 

@@ -24,14 +24,14 @@ namespace PersonalTrainerScheduler.UI
     public partial class TrainerRegistration : Window
     {
         #region Fields
-
+        // Review Yurii KL: Recommended to name private fields with _underscore
         private TrainerRepository trainerRepository;
         private OccupationRepository occupationRepository;
         private List<Occupation> occupations;
 
         private Trainer selectedTrainer;
         private bool isNewTrainer;
-        private bool closleCheck = true;
+        private bool closeCheck = true;
 
         private string _connectionString;
 
@@ -93,7 +93,9 @@ namespace PersonalTrainerScheduler.UI
         {
             var hour = ((availibleTimeComboBox.SelectedValue as ComboBoxItem).Content).ToString().Substring(0, 2);
             DateTime desiredDateTime = dateOfBirthDP.SelectedDate ?? new DateTime();
-            desiredDateTime = desiredDateTime.AddHours(Double.Parse(hour));
+			// Review Yurii KL: Unnescessary value assigning
+			// You could return value via "return desiredDateTime.AddHours(Double.Parse(hour));"
+			desiredDateTime = desiredDateTime.AddHours(Double.Parse(hour));
 
             return desiredDateTime;
         }
@@ -142,13 +144,13 @@ namespace PersonalTrainerScheduler.UI
                 MessageBox.Show("Trainer is successfully modified!");
             }
 
-            closleCheck = false;
+            closeCheck = false;
             this.Close();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            if (closleCheck == false)
+            if (closeCheck == false)
             {
                 return;
             }

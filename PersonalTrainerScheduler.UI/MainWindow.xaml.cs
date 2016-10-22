@@ -125,7 +125,8 @@ namespace PersonalTrainerScheduler.UI
             }
             int trainerId = (availibleTrainerComboBox.SelectedItem as Trainer).Id;
             int customerId = (customersSelectionComboBox.SelectedItem as Customer).Id;
-
+			// Review Yurii KL: You should handle an exception from DB
+			// While adding New Training Session with same trainer, customer and datetime an unhandled exception occurs
             trainingSessionRepository.RegisterTrainingSession(trainerId, customerId, GetCurrentlySelectedTime());
             SetSortedTrainingSessionByCustomerId();
             SetTrainersSchedule();
@@ -293,7 +294,7 @@ namespace PersonalTrainerScheduler.UI
                 MessageBox.Show("Nothing to delete!");
                 return;
             }
-
+			// Review Yurii KL: Good practice when you have to confirm deletion of something
             var sessionId = (scheduleCustomerGrid.SelectedItem as TrainingSession).Id;
             trainingSessionRepository.DeleteTrainingSessionById(sessionId);
             SetSortedTrainingSessionByCustomerId();
@@ -306,7 +307,7 @@ namespace PersonalTrainerScheduler.UI
                 MessageBox.Show("Nothing to delete!");
                 return;
             }
-
+			// Review Yurii KL: Good practice when you have to confirm deletion of something
             var selectedCustomer = customersList.SelectedItem as Customer;
             customerRepository.DeleteCustomerById(selectedCustomer.Id);
             MessageBox.Show("Customer Deleted!");
