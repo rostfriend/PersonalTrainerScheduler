@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace PersonalTrainerScheduler.UI.Code
 {
+   // Review TK: Don't forget to use access modifiers before classes.
+   // I would prefer to have such interface as IServiceEncryptor and class MD5ServiceEncryptor.
     class Encryptor
     {
         public static string GetHash(string text)

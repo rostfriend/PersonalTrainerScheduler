@@ -25,12 +25,16 @@ namespace PersonalTrainerScheduler.UI
     {
 
         #region Fields
-
+        // Review TK: The same comment about Dependency Inversion Principle.
+        // If you initialize field within constructor perhaps it makes sense to mark this field with readonly modifier.
         private CustomerRepository customerRepository;
         private Customer selectedCustomer;
 
+        // Review TK: I would prefer to use unique approach to initialize private fields.
         private bool isNewCustomer;
+        // Review TK: Please take into account naming for boolean variables.
         private bool closleCheck = true;
+        // Review TK: It makes sense to use readonly modifier.
         private string _connectionString;
 
         #endregion
@@ -46,12 +50,14 @@ namespace PersonalTrainerScheduler.UI
 
         public CustomerRegistration(Customer selectedCustomer)
         {
+            // Review TK: You could create one constructor where you could initialize all fields and then call this constructor within others.
             _connectionString = ConfigurationManager.ConnectionStrings["PersonalTrainerSchedulerConnectionString"].ConnectionString;
             customerRepository = new CustomerRepository(_connectionString);
             isNewCustomer = false;
             InitializeComponent();
             this.selectedCustomer = selectedCustomer;
 
+            //Review TK: Perhaps it makes sense to move this logic into separated function.
             firstNameTB.Text = this.selectedCustomer.FirstName;
             lastNameTB.Text = this.selectedCustomer.LastName;
             dateOfBirthDP.SelectedDate = this.selectedCustomer.DateOfBirth;
@@ -65,6 +71,10 @@ namespace PersonalTrainerScheduler.UI
         #region EventMethods
         private void OkBTN_Click(object sender, RoutedEventArgs e)
         {
+            // Review TK: I would prefer to make method which will perform validation.
+            // For instance, private void Validate(Customer c){}
+            // A good resource https://sourcemaking.com/refactoring/decompose-conditional
+            // You should use string.IsNullOrEmpty method
             if (firstNameTB.Text == null || lastNameTB.Text == null || dateOfBirthDP.SelectedDate == null || phoneNumberTB.Text == null || adressTB.Text == null)
             {
                 MessageBox.Show("Please, fill all of the fields!");
@@ -90,6 +100,7 @@ namespace PersonalTrainerScheduler.UI
             if (isNewCustomer)
             {
                 customerRepository.AddNewCustomer(firstName, lastName, dateOfBirth, phoneNumber, adress);
+                // Review TK: From my point of view, it is unnecessary to display message box after each operation.
                 MessageBox.Show("New customer successfully added!");
             }
             else

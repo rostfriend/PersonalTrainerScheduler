@@ -56,6 +56,7 @@ namespace PersonalTrainerScheduler.UI
         public TrainerRegistration(Trainer selectedTrainer)
         {
             InitializeComponent();
+            // Review TK: Dublicated logic, I would move it to one constructor and call it within other constructors.
             _connectionString = ConfigurationManager.ConnectionStrings["PersonalTrainerSchedulerConnectionString"].ConnectionString;
             trainerRepository = new TrainerRepository(_connectionString);
             occupationRepository = new OccupationRepository(_connectionString);
@@ -63,6 +64,7 @@ namespace PersonalTrainerScheduler.UI
             this.selectedTrainer = selectedTrainer;
             SetOccupations();
 
+            // Review TK: I'd prefer moving this logic into separated function.
             firstNameTB.Text = selectedTrainer.FirstName;
             lastNameTB.Text = selectedTrainer.LastName;
             dateOfBirthDP.SelectedDate = selectedTrainer.DateOfBirth;
@@ -91,6 +93,7 @@ namespace PersonalTrainerScheduler.UI
 
         private DateTime GetCurrentlySelectedTime(ref ComboBox availibleTimeComboBox)
         {
+            // Review TK: Possible null reference.
             var hour = ((availibleTimeComboBox.SelectedValue as ComboBoxItem).Content).ToString().Substring(0, 2);
             DateTime desiredDateTime = dateOfBirthDP.SelectedDate ?? new DateTime();
             desiredDateTime = desiredDateTime.AddHours(Double.Parse(hour));
@@ -100,7 +103,7 @@ namespace PersonalTrainerScheduler.UI
 
         private void OkBTN_Click(object sender, RoutedEventArgs e)
         {
-
+            // Review TK: It would be great to move this logic into Validate method.
             if (firstNameTB.Text == null || lastNameTB.Text == null || dateOfBirthDP.SelectedDate == null || phoneNumberTB.Text == null)
             {
                 MessageBox.Show("Please, fill all of the fields!");

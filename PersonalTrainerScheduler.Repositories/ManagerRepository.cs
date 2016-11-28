@@ -15,6 +15,7 @@ namespace PersonalTrainerScheduler.Repositories
 
         private string _connectionString;
 
+        // Review TK: It is a better practice to use const for that purpose.
         private string spGetManagerByLogin = "spGetManagerByLogin";
 
         #endregion

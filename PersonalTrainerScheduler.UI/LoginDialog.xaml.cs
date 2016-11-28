@@ -24,7 +24,8 @@ namespace PersonalTrainerScheduler.UI
     public partial class LoginDialog : Window
     {
         #region Fields
-
+        // Review TK: It is a good practice to use a similar approach in order to initialize private fields.
+        // I would prefer to use readonly modifier.
         private string _connectionString = ConfigurationManager.ConnectionStrings["PersonalTrainerSchedulerConnectionString"].ConnectionString;
         private ManagerRepository managerRepository;
 
@@ -47,6 +48,8 @@ namespace PersonalTrainerScheduler.UI
 
             Manager manager = managerRepository.GetManagerByLogin(login, password);
 
+            // Review TK: You could avoid using of if else statements.
+            // You could just write if(){ MessageBox.Show(...); return; }
             if (manager == null)
             {
                 MessageBox.Show("Invalid login or password!");

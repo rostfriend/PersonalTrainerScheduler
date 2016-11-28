@@ -22,6 +22,9 @@ using System.Windows.Shapes;
 
 namespace PersonalTrainerScheduler.UI
 {
+    // Review TK: It is a good practice to follow Dependency Inversion Principle.
+    // For example, you could add private field ITrainerRepository and within constructor you could initialize this field.
+    // Your code would depend on abstraction and it would be easy to use fake repository.
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -55,14 +58,14 @@ namespace PersonalTrainerScheduler.UI
         public MainWindow(Manager manager)
         {
             InitializeComponent();
-
+            
             _connectionString = ConfigurationManager.ConnectionStrings["PersonalTrainerSchedulerConnectionString"].ConnectionString;
 
             trainerRepository = new TrainerRepository(_connectionString);
             occupationRepository = new OccupationRepository(_connectionString);
             customerRepository = new CustomerRepository(_connectionString);
             trainingSessionRepository = new TrainingSessionRepository(_connectionString);
-
+          
             SetAllElements();
             SetCurrentManager(manager);
         }
@@ -106,8 +109,10 @@ namespace PersonalTrainerScheduler.UI
         }
         private void RegisterTrainingSessionBTN_Click(object sender, RoutedEventArgs e)
         {
+            // Review TK: It would be great to separate logic respo
             if (availibleTrainerComboBox.SelectedItem == null)
             {
+                // Review TK: It would be nice to use constants or resources for text within message box.
                 MessageBox.Show("No trainers available!");
                 return;
             }
@@ -164,6 +169,7 @@ namespace PersonalTrainerScheduler.UI
                     comma = "";
                     indent = "";
                 }
+                // Review TK: It is enough to use string.Format or string interpolation.
                 st.Append(item.OccupationName + comma + indent);
             }
             trainerOccupations.Text = st.ToString();
@@ -174,6 +180,8 @@ namespace PersonalTrainerScheduler.UI
         }
         private void Categories_SelectionChanged(object sender, SelectionChangedEventArgs e)////////////////////////////
         {
+            // Review TK: It is a good practice to use a similar approach in naming of controls.
+            // firstNameTB and ByCategoryRB 
             if (!(bool)ByCategoryRB.IsChecked)
             {
                 return;
@@ -183,6 +191,7 @@ namespace PersonalTrainerScheduler.UI
 
             foreach (var trainer in displayedTrainers)
             {
+
                 if (trainer.Occupations.Where(occ => (occ.Id) == selectedOcupation.Id).Count() != 0)
                 {
                     sortedTrainers.Add(trainer);
@@ -218,8 +227,10 @@ namespace PersonalTrainerScheduler.UI
             var sessionId = (scheduleTrainerGrid.SelectedItem as TrainingSession).Id;
             trainingSessionRepository.DeleteTrainingSessionById(sessionId);
             SetTrainersSchedule();
+            // Review TK: It isn't neccessary to display message box after each operation.
             MessageBox.Show("Training session deleted!");
         }
+        // Review TK: Please take into account naming for methods. I would prefer using PascalCase.
         private void DeleteTrainerBTN_Click(object sender, RoutedEventArgs e)
         {
             if (trainersList.SelectedItem == null)
@@ -278,6 +289,7 @@ namespace PersonalTrainerScheduler.UI
             {
                 return;
             }
+            // Review TK: I would separate this logic (binding) into separeted method.
             customerFirstName.Text = currentCustomer.FirstName;
             customerLastName.Text = currentCustomer.LastName;
             customerDateOfBirth.Text = currentCustomer.DateOfBirth.ToShortDateString();
@@ -307,6 +319,7 @@ namespace PersonalTrainerScheduler.UI
                 return;
             }
 
+            // Review TK: Possible null reference.
             var selectedCustomer = customersList.SelectedItem as Customer;
             customerRepository.DeleteCustomerById(selectedCustomer.Id);
             MessageBox.Show("Customer Deleted!");
@@ -424,6 +437,7 @@ namespace PersonalTrainerScheduler.UI
         }
         private DateTime GetCurrentlySelectedTime()
         {
+            // Review TK: It is a good practice to check for null selected values.
             var hour = ((availibleTimeComboBox.SelectedValue as ComboBoxItem).Content).ToString().Substring(0, 2);
             DateTime desiredDateTime = registrationDataPicker.SelectedDate ?? new DateTime();
             desiredDateTime = desiredDateTime.AddHours(Double.Parse(hour));

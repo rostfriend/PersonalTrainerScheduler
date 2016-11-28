@@ -12,7 +12,7 @@ namespace PersonalTrainerScheduler.Repositories
     {
 
         #region Fields
-
+        // Review TK: Perhaps it makes sense to create base class with field _connectionString.
         private string _connectionString;
 
         private const string spGetAllCustomers = "spGetAllCustomers";
